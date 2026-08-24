@@ -4,6 +4,12 @@ All notable changes to Agent Platform Advisor are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), organized by repository commit date.
 
+## 2026-08-24
+
+### Added
+
+- **Published an MSP reference architecture for the Microsoft AI and agent stack.** Added `docs/MSP_REFERENCE_ARCHITECTURE.md` with a practical multi-tenant managed-service blueprint aligned to the repository taxonomy and scoring guidance: scope and principles, layered architecture diagrams, component selection matrix, decision flow, landing-zone pattern, governance tiers, managed service catalog, operating model/SLO categories, threat model, workload patterns, adoption roadmap, and verification assumptions tied to `apa.yaml` metadata (`meta.guidance_verified`, `meta.last_updated`). Added discoverability links in `README.md` (project structure + documentation reference).
+
 ## 2026-08-19 (later)
 
 ### Changed

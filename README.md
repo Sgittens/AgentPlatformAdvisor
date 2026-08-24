@@ -70,6 +70,7 @@ agent-platform-advisor/
 │   ├── CHANGELOG.md        # Version history
 │   ├── DESIGN.md           # Design system reference
 │   ├── FLOWCHART.md        # Scoring and routing decision tree
+│   ├── MSP_REFERENCE_ARCHITECTURE.md  # MSP multi-tenant reference architecture for Microsoft AI/agents
 │   └── SCORING.md          # Scoring system reference
 └── tests/
     └── e2e/                # Playwright end-to-end tests
@@ -79,7 +80,7 @@ The app is purely static: no backend, no bundler, and no build step. `index.html
 
 ## How recommendation logic works
 
-See [docs/SCORING.md](docs/SCORING.md) for the full reference and [docs/FLOWCHART.md](docs/FLOWCHART.md) for the visual decision tree.
+See [docs/SCORING.md](docs/SCORING.md) for the full reference and [docs/FLOWCHART.md](docs/FLOWCHART.md) for the visual decision tree. For MSP delivery and operations design across customer tenants, see [docs/MSP_REFERENCE_ARCHITECTURE.md](docs/MSP_REFERENCE_ARCHITECTURE.md).
 
 There are two recommendation modes:
 
