@@ -162,7 +162,7 @@ flowchart TD
 
   D -->|Delegate| E{M365-only delegated work?}
   E -->|Yes| F[Copilot Cowork]
-  E -->|No cross-environment| G[Microsoft Scout]
+  E -->|No — cross-environment| G[Microsoft Scout]
 
   D -->|Build| H{No-code, low-code, or pro-code?}
   H -->|No-code in M365 Copilot| I[Agent Builder]
